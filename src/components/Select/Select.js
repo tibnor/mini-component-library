@@ -33,7 +33,7 @@ const Wrapper = styled.div`
     color: ${COLORS.black};
   }
 
-  ${SelectWrapper}:focus + & {
+  &:focus-within {
     outline: 1px dotted #212121;
     outline: 5px auto -webkit-focus-ring-color;
   }
